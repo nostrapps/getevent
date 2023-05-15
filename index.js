@@ -41,6 +41,7 @@ pool.on('event', (relay, sub_id, ev) => {
 	const out = {
 		'@id': '',
 		mainEntity: {
+			'@context': 'https://w3id.orb/nostr/context',
 			'@id': 'nostr:event:' + event,
 			...ev
 		}
