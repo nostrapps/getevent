@@ -43,6 +43,7 @@ pool.on('event', (relay, sub_id, ev) => {
 		mainEntity: {
 			'@context': 'https://w3id.org/nostr/context',
 			'@id': 'nostr:event:' + event,
+			'@type': 'Event',
 			...ev
 		}
 	}
