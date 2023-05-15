@@ -1,5 +1,6 @@
 {
   "name": "getevent",
+  "type": "module",
   "version": "0.0.5",
   "description": "getevent",
   "main": "index.js",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/nostrapps/getevent#readme",
   "dependencies": {
+    "event-ld": "^0.0.1",
     "nostr": "^0.2.8"
   }
 }
