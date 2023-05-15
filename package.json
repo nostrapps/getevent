@@ -1,6 +1,6 @@
 {
   "name": "getevent",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "getevent",
   "main": "index.js",
   "scripts": {
